@@ -1,0 +1,431 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  list-style: none; }
+  * a {
+    text-decoration: none; }
+
+html, body {
+  background: #f5f5f5;
+  height: 100%; }
+
+.big {
+  width: 100%;
+  position: relative; }
+  .big .book {
+    width: 100%;
+    position: absolute;
+    display: none; }
+  .big .book:nth-child(1) {
+    width: 100%;
+    display: block; }
+    .big .book:nth-child(1) header {
+      width: 100%;
+      background: pink;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      position: relative; }
+      .big .book:nth-child(1) header .head {
+        width: 94%;
+        z-index: 2; }
+        .big .book:nth-child(1) header .head p {
+          float: left; }
+        .big .book:nth-child(1) header .head p:nth-child(1) {
+          width: 20%; }
+          .big .book:nth-child(1) header .head p:nth-child(1) img {
+            width: 58px;
+            height: 30px;
+            padding-top: 10px; }
+        .big .book:nth-child(1) header .head p:nth-child(2) {
+          width: 50%;
+          float: left;
+          position: relative;
+          top: 0.35rem;
+          left: 0.7rem; }
+          .big .book:nth-child(1) header .head p:nth-child(2) span:nth-child(1) {
+            display: inline-block;
+            position: absolute;
+            top: 0.25rem;
+            left: 0.25rem; }
+            .big .book:nth-child(1) header .head p:nth-child(2) span:nth-child(1) img {
+              width: 0.8rem;
+              height: 0.8rem; }
+          .big .book:nth-child(1) header .head p:nth-child(2) input:nth-child(2) {
+            height: 1.5rem;
+            width: 100%;
+            padding-left: 1.3rem;
+            border: 1px solid gray;
+            border-radius: 5px; }
+        .big .book:nth-child(1) header .head p:nth-child(3) {
+          width: 20%;
+          float: right;
+          margin-right: -0.6rem; }
+          .big .book:nth-child(1) header .head p:nth-child(3) span {
+            display: block;
+            align-items: center; }
+          .big .book:nth-child(1) header .head p:nth-child(3) span:nth-child(1) {
+            margin-top: 0.25rem; }
+            .big .book:nth-child(1) header .head p:nth-child(3) span:nth-child(1) img {
+              width: 1.25rem; }
+          .big .book:nth-child(1) header .head p:nth-child(3) span:nth-child(2) {
+            font-size: 0.8rem;
+            color: #fff;
+            margin-top: -0.75rem; }
+        .big .book:nth-child(1) header .head .clearfix:after {
+          display: block;
+          clear: both;
+          content: ''; }
+      .big .book:nth-child(1) header .banner {
+        width: 100%;
+        height: 8.8rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        overflow: hidden; }
+        .big .book:nth-child(1) header .banner ul {
+          width: 100%; }
+          .big .book:nth-child(1) header .banner ul li {
+            width: 100%;
+            height: 8.8rem;
+            float: left;
+            left: 1366px;
+            position: absolute; }
+            .big .book:nth-child(1) header .banner ul li img {
+              width: 100%;
+              height: 100%; }
+        .big .book:nth-child(1) header .banner #ol {
+          position: absolute;
+          bottom: 0.4rem;
+          left: 30%;
+          z-index: 5; }
+          .big .book:nth-child(1) header .banner #ol li {
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            text-align: center;
+            float: left;
+            margin-left: 30px; }
+        .big .book:nth-child(1) header .banner #ol .cll {
+          background: #fff; }
+    .big .book:nth-child(1) main {
+      width: 100%;
+      z-index: 6;
+      margin-top: 6.1rem; }
+      .big .book:nth-child(1) main .daohang {
+        width: 100%;
+        height: 10.1rem;
+        background: #fff;
+        padding-bottom: 0.8rem; }
+        .big .book:nth-child(1) main .daohang ul {
+          width: 100%;
+          text-align: center;
+          background: #fff; }
+          .big .book:nth-child(1) main .daohang ul li {
+            width: 100%;
+            text-align: center;
+            float: left;
+            margin-right: 3rem; }
+            .big .book:nth-child(1) main .daohang ul li a {
+              display: inline-block;
+              width: 25%;
+              float: left;
+              text-align: center; }
+              .big .book:nth-child(1) main .daohang ul li a div {
+                width: 100%; }
+                .big .book:nth-child(1) main .daohang ul li a div img {
+                  width: 2.2rem;
+                  margin-top: 1rem; }
+                .big .book:nth-child(1) main .daohang ul li a div p {
+                  color: #333333;
+                  font-size: 0.6rem;
+                  margin-top: 0.7rem; }
+            .big .book:nth-child(1) main .daohang ul li a:nth-child(5) div {
+              position: relative; }
+              .big .book:nth-child(1) main .daohang ul li a:nth-child(5) div span {
+                height: 1rem;
+                display: inline-block;
+                color: #fff;
+                text-align: center;
+                background: #ff7f00;
+                position: absolute;
+                border-radius: 5px;
+                line-height: 1rem;
+                font-size: 0.5rem;
+                top: 1rem;
+                left: 2.8rem;
+                padding-left: 0.1rem;
+                padding-right: 0.1rem; }
+            .big .book:nth-child(1) main .daohang ul li a:nth-child(6) div {
+              position: relative; }
+              .big .book:nth-child(1) main .daohang ul li a:nth-child(6) div span {
+                height: 1rem;
+                display: inline-block;
+                color: #fff;
+                text-align: center;
+                background: #ff7f00;
+                position: absolute;
+                border-radius: 5px;
+                line-height: 1rem;
+                font-size: 0.5rem;
+                top: 1rem;
+                left: 3.0rem;
+                padding-left: 0.1rem;
+                padding-right: 0.1rem; }
+      .big .book:nth-child(1) main .pc_jiekou {
+        width: 100%;
+        height: 5rem;
+        background: #fff;
+        margin-top: 0.4rem; }
+        .big .book:nth-child(1) main .pc_jiekou div {
+          width: calc(100%/3);
+          float: left;
+          height: 100%;
+          border: 1px solid #f0f0f0;
+          box-sizing: border-box;
+          text-align: center; }
+          .big .book:nth-child(1) main .pc_jiekou div img {
+            width: 3.5rem;
+            margin-top: 1.1rem; }
+          .big .book:nth-child(1) main .pc_jiekou div p:nth-child(2) {
+            font-size: 0.6rem;
+            text-align: center; }
+        .big .book:nth-child(1) main .pc_jiekou div:nth-child(1) p:nth-child(2) {
+          color: #e55b4f; }
+        .big .book:nth-child(1) main .pc_jiekou div:nth-child(2) p:nth-child(2) {
+          color: #43bd4d; }
+        .big .book:nth-child(1) main .pc_jiekou div:nth-child(3) p:nth-child(2) {
+          color: #58bce1; }
+        .big .book:nth-child(1) main .pc_jiekou .clearfix:after {
+          display: block;
+          clear: both;
+          content: ''; }
+      .big .book:nth-child(1) main .pc_vip {
+        width: 100%;
+        height: 5.1rem;
+        background: #fff; }
+        .big .book:nth-child(1) main .pc_vip div {
+          float: left;
+          width: 50%;
+          height: 5.1rem;
+          border: 1px solid #f0f0f0;
+          box-sizing: border-box; }
+          .big .book:nth-child(1) main .pc_vip div img {
+            width: 100%; }
+        .big .book:nth-child(1) main .pc_vip .clearfix:after {
+          display: block;
+          clear: both;
+          content: ''; }
+      .big .book:nth-child(1) main .pc_huibi {
+        width: 100%;
+        height: 5.8rem;
+        background: #fff; }
+        .big .book:nth-child(1) main .pc_huibi div {
+          float: left;
+          border: 1px solid #f0f0f0;
+          box-sizing: border-box;
+          text-align: center;
+          height: 5.8rem; }
+          .big .book:nth-child(1) main .pc_huibi div img {
+            margin-top: 1rem;
+            height: 3rem; }
+          .big .book:nth-child(1) main .pc_huibi div p:nth-child(2) {
+            text-align: center;
+            font-size: 0.6rem;
+            color: #333333; }
+        .big .book:nth-child(1) main .pc_huibi div:nth-child(1) {
+          width: 5.2rem; }
+          .big .book:nth-child(1) main .pc_huibi div:nth-child(1) img {
+            width: 4rem; }
+        .big .book:nth-child(1) main .pc_huibi div:nth-child(2) {
+          width: 9.1rem; }
+          .big .book:nth-child(1) main .pc_huibi div:nth-child(2) img {
+            width: 5.5rem; }
+        .big .book:nth-child(1) main .pc_huibi div:nth-child(3) {
+          width: 6.3rem; }
+          .big .book:nth-child(1) main .pc_huibi div:nth-child(3) img {
+            width: 4.2rem; }
+        .big .book:nth-child(1) main .pc_huibi .clearfix:after {
+          display: block;
+          clear: both;
+          content: ''; }
+      .big .book:nth-child(1) main .pc_duoshou {
+        width: 100%;
+        height: 8.8rem;
+        background: #fff;
+        position: relative; }
+        .big .book:nth-child(1) main .pc_duoshou .duoshou_left {
+          width: 65%;
+          height: 8.8rem; }
+          .big .book:nth-child(1) main .pc_duoshou .duoshou_left img {
+            width: 6.4rem;
+            margin-left: 4.7rem;
+            margin-top: 1rem; }
+          .big .book:nth-child(1) main .pc_duoshou .duoshou_left p:nth-child(2) span {
+            display: block;
+            font-size: 0.6rem;
+            color: #999999; }
+          .big .book:nth-child(1) main .pc_duoshou .duoshou_left p:nth-child(2) span:nth-child(1) {
+            font-weight: bold;
+            color: #b0d292;
+            position: absolute;
+            top: 1rem;
+            left: 0.5rem; }
+          .big .book:nth-child(1) main .pc_duoshou .duoshou_left p:nth-child(2) span:nth-child(2) {
+            position: absolute;
+            top: 2.1rem;
+            left: 0.6rem;
+            width: 11em; }
+        .big .book:nth-child(1) main .pc_duoshou .duoshou_right {
+          width: 30%;
+          height: 8.8rem;
+          position: absolute;
+          top: 0;
+          right: 0; }
+          .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul {
+            width: 100%; }
+            .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li {
+              width: 100%; }
+              .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li p:nth-child(1) {
+                float: left; }
+                .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li p:nth-child(1) img {
+                  width: 1.6rem;
+                  margin-left: -3.3rem; }
+              .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li p:nth-child(2) span {
+                display: inline-block;
+                font-size: 0.6rem; }
+              .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li p:nth-child(2) span:nth-child(1) {
+                font-weight: bold;
+                color: #333333; }
+              .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li p:nth-child(2) span:nth-child(2) {
+                color: #999999;
+                margin-left: 0.4rem; }
+              .big .book:nth-child(1) main .pc_duoshou .duoshou_right ul li .clearfix:after {
+                display: block;
+                clear: both;
+                content: ''; }
+      .big .book:nth-child(1) main .pc_zhide {
+        width: 100%;
+        height: 2rem;
+        border-left: 5px solid #ff9804;
+        background: #fff;
+        box-sizing: border-box;
+        margin-top: 0.4rem; }
+        .big .book:nth-child(1) main .pc_zhide p {
+          line-height: 2rem; }
+        .big .book:nth-child(1) main .pc_zhide p:nth-child(1) {
+          font-size: 0.8rem;
+          float: left;
+          padding-left: 0.6rem;
+          color: #ff9804; }
+        .big .book:nth-child(1) main .pc_zhide p:nth-child(2) {
+          float: left;
+          margin-left: 12rem; }
+          .big .book:nth-child(1) main .pc_zhide p:nth-child(2) span {
+            display: inline-block;
+            width: 0.3rem;
+            height: 0.2rem;
+            border: 1px solid gray;
+            border-radius: 50%; }
+        .big .book:nth-child(1) main .pc_zhide .clearfix:after {
+          display: block;
+          clear: both;
+          content: ''; }
+      .big .book:nth-child(1) main .pc_list {
+        width: 100%;
+        background: #fff;
+        margin-top: 0.1rem;
+        padding-bottom: 3rem; }
+        .big .book:nth-child(1) main .pc_list li {
+          border-bottom: 1px solid gray;
+          padding-bottom: 6rem; }
+          .big .book:nth-child(1) main .pc_list li .list_left {
+            width: 30%;
+            float: left; }
+            .big .book:nth-child(1) main .pc_list li .list_left img {
+              width: 4.2rem;
+              height: 3.2rem;
+              margin-top: 0.5rem;
+              margin-left: 0.4rem; }
+          .big .book:nth-child(1) main .pc_list li .list_right {
+            float: left;
+            width: 68%; }
+            .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(1) {
+              width: 100%;
+              font-size: 0.6rem;
+              color: #333333;
+              padding-top: 0.8rem;
+              line-height: 1rem; }
+            .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(2) {
+              font-size: 0.6rem;
+              color: #999999; }
+            .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) {
+              padding-top: 0.9rem; }
+              .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) p:nth-child(1) {
+                float: left;
+                font-size: 0.6rem;
+                color: red; }
+              .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) p:nth-child(2) {
+                float: right;
+                text-align: center;
+                padding-right: 0.45rem;
+                margin-top: -0.4rem; }
+                .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) p:nth-child(2) span {
+                  display: inline-block;
+                  font-size: 0.6rem; }
+                .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) p:nth-child(2) span:nth-child(1) {
+                  font-size: 0.6rem; }
+                .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) p:nth-child(2) span:nth-child(2) {
+                  font-size: 0.6rem; }
+                .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) p:nth-child(2) span:nth-child(3) {
+                  font-size: 0.6rem; }
+              .big .book:nth-child(1) main .pc_list li .list_right div:nth-child(3) .clearfix:after {
+                display: block;
+                clear: both;
+                content: ''; }
+        .big .book:nth-child(1) main .pc_list li:last-child {
+          border: none; }
+  .big .book:nth-child(2) {
+    background: red; }
+  .big .book:nth-child(3) {
+    background: green; }
+  .big .book:nth-child(4) {
+    background: orange; }
+  .big .book:nth-child(5) {
+    background: pink; }
+
+footer {
+  width: 100%;
+  height: 2.8rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0.45rem; }
+  footer ul {
+    width: 100%;
+    height: 100%; }
+    footer ul li {
+      width: 100%;
+      height: 100%; }
+      footer ul li a {
+        float: left;
+        width: 20%; }
+        footer ul li a div {
+          width: 100%;
+          text-align: center; }
+          footer ul li a div img {
+            width: 1.1rem;
+            height: 1rem;
+            margin-top: 0.55rem; }
+          footer ul li a div p {
+            font-size: 0.6rem;
+            color: #999999;
+            text-align: center; }
+        footer ul li a p.tocolor {
+          color: red; }
+
+/*# sourceMappingURL=yiqi.css.map */
